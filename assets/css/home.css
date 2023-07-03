@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top, rgb(1, 196, 166), white);
+    height: 1240px;
+    overflow-y: hidden;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li{
+    margin-right: 35px;
+}
+
+.nav-links li a{
+    color: green;
+    font-weight: 600;
+}
+
+.login{
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.login li a{
+    color: green;
+    background-color:white;
+    padding: 15px;
+    border: 2px solid rgba(1, 196, 167, 0.562);
+    border-radius: 33px;
+}
+
+.login li a:hover{
+    background-color: rgba(1, 196, 167, 0.562) ;
+    font-weight: 600;
+    color: white;
+}
+
+.txt{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.txt p{
+    text-align: left;
+    font-size: 30px;
+}
+
+.servicos{
+    margin-left: 40px;
+    padding-top: 20px;
+    background-color: rgba(253, 255, 255, 0.062);
+    width: 660px;
+    height: 400px;
+    border-radius: 33px;
+
+}
+
+.servicos img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    
+}
+
+.servicos p{
+    margin-top: -40px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.cadastro{
+    position: absolute;
+    background-color: rgba(250, 235, 215, 0.137) ;
+    border-radius: 33px;
+    margin-left: 800px;
+}
+
+.medicos{
+    margin-left: 90px;
+    margin-top: -660px;
+    margin-bottom: 200px;
+}
+
+.cadastro1{
+    margin-left: 45px;
+    margin-top: -150px;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+
+.cadastro a{
+    margin-left: 160px;
+    color: black;
+    border: 2px solid rgba(1, 196, 167, 0.562);
+    border-radius: 33px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.cadastro a:hover{
+    background-color: rgba(1, 196, 167, 0.562) ;
+    font-weight: 600;
+    color: white;
+}

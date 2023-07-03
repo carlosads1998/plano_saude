@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(1, 196, 166), white);
+    height: 1240px;
+    overflow-y: hidden;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li{
+    margin-right: 35px;
+}
+
+.nav-links li a{
+    color: green;
+    font-weight: 600;
+}
+
+.login{
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.login li a{
+    color: green;
+    background-color:white;
+    padding: 15px;
+    border: 2px solid rgba(1, 196, 167, 0.562);
+    border-radius: 33px;
+}
+
+.login li a:hover{
+    background-color: rgba(1, 196, 167, 0.562) ;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+}
+
+
+.planos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 33px;
+    margin-top: 60px ;
+    height: 370px;
+}
+
+.titulo{
+    margin-left: 180px;
+    margin-bottom:40px;
+}
+
+.basico, .padrao, .premium{
+    margin-top: 30px;
+}
+
+
+.back{
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-left: 30px;
+    border-radius: 33px;
+    width: 400px;
+    height: 371px;
+}
+
+.back1{
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-left: 30px;
+    border-radius: 33px;
+    width: 400px;
+    height: 371px;
+}
+
+.back2{
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 33px;
+    width: 400px;
+    height: 371px;
+    margin-left: 40px;
+}
+
+
+.item{
+    margin-left: 155px;
+}
+
+.planos a{
+    position: absolute;
+    top: 470px;
+    margin-left: 130px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid  rgb(1, 196, 166);
+    border-radius: 33px;
+    height: 42px;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.planos a:hover{
+    background-color: rgb(1, 196, 166) ;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+
+}
+
+.duvida{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.068);
+    height: 100px;
+    border-radius: 33px;
+    width: 1100px;
+}
+
+.duvida p{
+    position: absolute;
+    font-size: 36px;
+    margin-right: 320px;
+    width: 720px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.duvida a{
+    position: absolute;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top:15px;
+    border-radius: 33px;
+    color: green;
+    font-weight: 600;
+    width: 150px;    
+}
+
+.back3{
+    position: absolute;
+    width: 170px ;
+    height: 60px;
+    background-color: white;
+    margin-left: 540px;
+    margin-top: 20px;
+    border-radius: 33px;
+    border: 3px solid rgba(1, 196, 167, 0.562);
+}
+
+.back3:hover{
+    font-style: italic;
+    background-color: rgba(1, 196, 167, 0.562) ;
+    font-weight: 600;
+    color: white;
+}
+
+.botao-interativo{
+    display: grid;
+    margin-top: -95px;
+    justify-content: right;
+}
+
+.botao-interativo a{
+    font-size: 32px;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
